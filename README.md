@@ -1,9 +1,7 @@
 LPlaceholderTextView
 ====================
 
-UITextView subclass with placeholder text
-
-Just add LPlaceholderTextView class to your project.
+LPlaceholderTextView is a UITextView subclass with placeholder text. Just add LPlaceholderTextView class to your project.
 
 Sample implementation
 ---------------------
