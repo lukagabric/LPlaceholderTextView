@@ -1,0 +1,515 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		415B76C5190F98BE007EFE9B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 415B76C4190F98BE007EFE9B /* Foundation.framework */; };
+		415B76C7190F98BE007EFE9B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 415B76C6190F98BE007EFE9B /* CoreGraphics.framework */; };
+		415B76C9190F98BE007EFE9B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 415B76C8190F98BE007EFE9B /* UIKit.framework */; };
+		415B76CF190F98BE007EFE9B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 415B76CD190F98BE007EFE9B /* InfoPlist.strings */; };
+		415B76D1190F98BE007EFE9B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 415B76D0190F98BE007EFE9B /* main.m */; };
+		415B76D8190F98BE007EFE9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 415B76D6190F98BE007EFE9B /* Main.storyboard */; };
+		415B76DD190F98BE007EFE9B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 415B76DC190F98BE007EFE9B /* Images.xcassets */; };
+		415B76E4190F98BE007EFE9B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 415B76E3190F98BE007EFE9B /* XCTest.framework */; };
+		415B76E5190F98BE007EFE9B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 415B76C4190F98BE007EFE9B /* Foundation.framework */; };
+		415B76E6190F98BE007EFE9B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 415B76C8190F98BE007EFE9B /* UIKit.framework */; };
+		415B76EE190F98BE007EFE9B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 415B76EC190F98BE007EFE9B /* InfoPlist.strings */; };
+		415B76F0190F98BE007EFE9B /* LPlaceholderTextViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 415B76EF190F98BE007EFE9B /* LPlaceholderTextViewTests.m */; };
+		415B7703190F991B007EFE9B /* LPlaceholderTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 415B76FD190F991B007EFE9B /* LPlaceholderTextView.m */; };
+		415B7704190F991B007EFE9B /* LPlaceholderTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 415B76FD190F991B007EFE9B /* LPlaceholderTextView.m */; };
+		415B7705190F991B007EFE9B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 415B7700190F991B007EFE9B /* AppDelegate.m */; };
+		415B7706190F991B007EFE9B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 415B7700190F991B007EFE9B /* AppDelegate.m */; };
+		415B7707190F991B007EFE9B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 415B7702190F991B007EFE9B /* ViewController.m */; };
+		415B7708190F991B007EFE9B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 415B7702190F991B007EFE9B /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		415B76E7190F98BE007EFE9B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 415B76B9190F98BE007EFE9B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 415B76C0190F98BE007EFE9B;
+			remoteInfo = LPlaceholderTextView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		415B76C1190F98BE007EFE9B /* LPlaceholderTextView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LPlaceholderTextView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		415B76C4190F98BE007EFE9B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		415B76C6190F98BE007EFE9B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		415B76C8190F98BE007EFE9B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		415B76CC190F98BE007EFE9B /* LPlaceholderTextView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LPlaceholderTextView-Info.plist"; sourceTree = "<group>"; };
+		415B76CE190F98BE007EFE9B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		415B76D0190F98BE007EFE9B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		415B76D2190F98BE007EFE9B /* LPlaceholderTextView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LPlaceholderTextView-Prefix.pch"; sourceTree = "<group>"; };
+		415B76D7190F98BE007EFE9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		415B76DC190F98BE007EFE9B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		415B76E2190F98BE007EFE9B /* LPlaceholderTextViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LPlaceholderTextViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		415B76E3190F98BE007EFE9B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		415B76EB190F98BE007EFE9B /* LPlaceholderTextViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LPlaceholderTextViewTests-Info.plist"; sourceTree = "<group>"; };
+		415B76ED190F98BE007EFE9B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		415B76EF190F98BE007EFE9B /* LPlaceholderTextViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LPlaceholderTextViewTests.m; sourceTree = "<group>"; };
+		415B76FC190F991B007EFE9B /* LPlaceholderTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPlaceholderTextView.h; sourceTree = "<group>"; };
+		415B76FD190F991B007EFE9B /* LPlaceholderTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPlaceholderTextView.m; sourceTree = "<group>"; };
+		415B76FF190F991B007EFE9B /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		415B7700190F991B007EFE9B /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		415B7701190F991B007EFE9B /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		415B7702190F991B007EFE9B /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		415B76BE190F98BE007EFE9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				415B76C7190F98BE007EFE9B /* CoreGraphics.framework in Frameworks */,
+				415B76C9190F98BE007EFE9B /* UIKit.framework in Frameworks */,
+				415B76C5190F98BE007EFE9B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		415B76DF190F98BE007EFE9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				415B76E4190F98BE007EFE9B /* XCTest.framework in Frameworks */,
+				415B76E6190F98BE007EFE9B /* UIKit.framework in Frameworks */,
+				415B76E5190F98BE007EFE9B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		415B76B8190F98BE007EFE9B = {
+			isa = PBXGroup;
+			children = (
+				415B76CA190F98BE007EFE9B /* LPlaceholderTextView */,
+				415B76E9190F98BE007EFE9B /* LPlaceholderTextViewTests */,
+				415B76C3190F98BE007EFE9B /* Frameworks */,
+				415B76C2190F98BE007EFE9B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		415B76C2190F98BE007EFE9B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				415B76C1190F98BE007EFE9B /* LPlaceholderTextView.app */,
+				415B76E2190F98BE007EFE9B /* LPlaceholderTextViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		415B76C3190F98BE007EFE9B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				415B76C4190F98BE007EFE9B /* Foundation.framework */,
+				415B76C6190F98BE007EFE9B /* CoreGraphics.framework */,
+				415B76C8190F98BE007EFE9B /* UIKit.framework */,
+				415B76E3190F98BE007EFE9B /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		415B76CA190F98BE007EFE9B /* LPlaceholderTextView */ = {
+			isa = PBXGroup;
+			children = (
+				415B76F9190F991B007EFE9B /* Classes */,
+				415B76D6190F98BE007EFE9B /* Main.storyboard */,
+				415B76DC190F98BE007EFE9B /* Images.xcassets */,
+				415B76CB190F98BE007EFE9B /* Supporting Files */,
+			);
+			path = LPlaceholderTextView;
+			sourceTree = "<group>";
+		};
+		415B76CB190F98BE007EFE9B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				415B76CC190F98BE007EFE9B /* LPlaceholderTextView-Info.plist */,
+				415B76CD190F98BE007EFE9B /* InfoPlist.strings */,
+				415B76D0190F98BE007EFE9B /* main.m */,
+				415B76D2190F98BE007EFE9B /* LPlaceholderTextView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		415B76E9190F98BE007EFE9B /* LPlaceholderTextViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				415B76EF190F98BE007EFE9B /* LPlaceholderTextViewTests.m */,
+				415B76EA190F98BE007EFE9B /* Supporting Files */,
+			);
+			path = LPlaceholderTextViewTests;
+			sourceTree = "<group>";
+		};
+		415B76EA190F98BE007EFE9B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				415B76EB190F98BE007EFE9B /* LPlaceholderTextViewTests-Info.plist */,
+				415B76EC190F98BE007EFE9B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		415B76F9190F991B007EFE9B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				415B76FA190F991B007EFE9B /* Core */,
+				415B76FE190F991B007EFE9B /* Other */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		415B76FA190F991B007EFE9B /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				415B76FB190F991B007EFE9B /* LPlaceholderTextView */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		415B76FB190F991B007EFE9B /* LPlaceholderTextView */ = {
+			isa = PBXGroup;
+			children = (
+				415B76FC190F991B007EFE9B /* LPlaceholderTextView.h */,
+				415B76FD190F991B007EFE9B /* LPlaceholderTextView.m */,
+			);
+			path = LPlaceholderTextView;
+			sourceTree = "<group>";
+		};
+		415B76FE190F991B007EFE9B /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				415B76FF190F991B007EFE9B /* AppDelegate.h */,
+				415B7700190F991B007EFE9B /* AppDelegate.m */,
+				415B7701190F991B007EFE9B /* ViewController.h */,
+				415B7702190F991B007EFE9B /* ViewController.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		415B76C0190F98BE007EFE9B /* LPlaceholderTextView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 415B76F3190F98BE007EFE9B /* Build configuration list for PBXNativeTarget "LPlaceholderTextView" */;
+			buildPhases = (
+				415B76BD190F98BE007EFE9B /* Sources */,
+				415B76BE190F98BE007EFE9B /* Frameworks */,
+				415B76BF190F98BE007EFE9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LPlaceholderTextView;
+			productName = LPlaceholderTextView;
+			productReference = 415B76C1190F98BE007EFE9B /* LPlaceholderTextView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		415B76E1190F98BE007EFE9B /* LPlaceholderTextViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 415B76F6190F98BE007EFE9B /* Build configuration list for PBXNativeTarget "LPlaceholderTextViewTests" */;
+			buildPhases = (
+				415B76DE190F98BE007EFE9B /* Sources */,
+				415B76DF190F98BE007EFE9B /* Frameworks */,
+				415B76E0190F98BE007EFE9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				415B76E8190F98BE007EFE9B /* PBXTargetDependency */,
+			);
+			name = LPlaceholderTextViewTests;
+			productName = LPlaceholderTextViewTests;
+			productReference = 415B76E2190F98BE007EFE9B /* LPlaceholderTextViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		415B76B9190F98BE007EFE9B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = LG;
+				TargetAttributes = {
+					415B76E1190F98BE007EFE9B = {
+						TestTargetID = 415B76C0190F98BE007EFE9B;
+					};
+				};
+			};
+			buildConfigurationList = 415B76BC190F98BE007EFE9B /* Build configuration list for PBXProject "LPlaceholderTextView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 415B76B8190F98BE007EFE9B;
+			productRefGroup = 415B76C2190F98BE007EFE9B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				415B76C0190F98BE007EFE9B /* LPlaceholderTextView */,
+				415B76E1190F98BE007EFE9B /* LPlaceholderTextViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		415B76BF190F98BE007EFE9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				415B76DD190F98BE007EFE9B /* Images.xcassets in Resources */,
+				415B76CF190F98BE007EFE9B /* InfoPlist.strings in Resources */,
+				415B76D8190F98BE007EFE9B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		415B76E0190F98BE007EFE9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				415B76EE190F98BE007EFE9B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		415B76BD190F98BE007EFE9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				415B7703190F991B007EFE9B /* LPlaceholderTextView.m in Sources */,
+				415B76D1190F98BE007EFE9B /* main.m in Sources */,
+				415B7707190F991B007EFE9B /* ViewController.m in Sources */,
+				415B7705190F991B007EFE9B /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		415B76DE190F98BE007EFE9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				415B7704190F991B007EFE9B /* LPlaceholderTextView.m in Sources */,
+				415B76F0190F98BE007EFE9B /* LPlaceholderTextViewTests.m in Sources */,
+				415B7708190F991B007EFE9B /* ViewController.m in Sources */,
+				415B7706190F991B007EFE9B /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		415B76E8190F98BE007EFE9B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 415B76C0190F98BE007EFE9B /* LPlaceholderTextView */;
+			targetProxy = 415B76E7190F98BE007EFE9B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		415B76CD190F98BE007EFE9B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				415B76CE190F98BE007EFE9B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		415B76D6190F98BE007EFE9B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				415B76D7190F98BE007EFE9B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		415B76EC190F98BE007EFE9B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				415B76ED190F98BE007EFE9B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		415B76F1190F98BE007EFE9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		415B76F2190F98BE007EFE9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		415B76F4190F98BE007EFE9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LPlaceholderTextView/LPlaceholderTextView-Prefix.pch";
+				INFOPLIST_FILE = "LPlaceholderTextView/LPlaceholderTextView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		415B76F5190F98BE007EFE9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LPlaceholderTextView/LPlaceholderTextView-Prefix.pch";
+				INFOPLIST_FILE = "LPlaceholderTextView/LPlaceholderTextView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		415B76F7190F98BE007EFE9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LPlaceholderTextView.app/LPlaceholderTextView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LPlaceholderTextView/LPlaceholderTextView-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "LPlaceholderTextViewTests/LPlaceholderTextViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		415B76F8190F98BE007EFE9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LPlaceholderTextView.app/LPlaceholderTextView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LPlaceholderTextView/LPlaceholderTextView-Prefix.pch";
+				INFOPLIST_FILE = "LPlaceholderTextViewTests/LPlaceholderTextViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		415B76BC190F98BE007EFE9B /* Build configuration list for PBXProject "LPlaceholderTextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				415B76F1190F98BE007EFE9B /* Debug */,
+				415B76F2190F98BE007EFE9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		415B76F3190F98BE007EFE9B /* Build configuration list for PBXNativeTarget "LPlaceholderTextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				415B76F4190F98BE007EFE9B /* Debug */,
+				415B76F5190F98BE007EFE9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		415B76F6190F98BE007EFE9B /* Build configuration list for PBXNativeTarget "LPlaceholderTextViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				415B76F7190F98BE007EFE9B /* Debug */,
+				415B76F8190F98BE007EFE9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 415B76B9190F98BE007EFE9B /* Project object */;
+}
