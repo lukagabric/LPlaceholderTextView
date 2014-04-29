@@ -11,6 +11,9 @@ Sample implementation
 
 Screenshots
 -----------
+
 [![](http://lukagabric.com/wp-content/uploads/2014/04/lplaceholdertextview_placeholder.png)](http://lukagabric.com/wp-content/uploads/2014/04/lplaceholdertextview_placeholder.png)
+
+-----------------------------------
 
 [![](http://lukagabric.com/wp-content/uploads/2014/04/lplaceholdertextview_text.png)](http://lukagabric.com/wp-content/uploads/2014/04/lplaceholdertextview_text.png)
