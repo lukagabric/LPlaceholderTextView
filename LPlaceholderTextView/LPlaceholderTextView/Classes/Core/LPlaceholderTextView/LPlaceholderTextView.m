@@ -91,6 +91,15 @@
     [self layoutGUI];
 }
 
+- (void)setPlaceholderText:(NSString*)placeholderText {
+	_placeholderText = placeholderText;
+	[self setNeedsDisplay];
+}
+
+- (void)setPlaceholderColor:(UIColor*)color {
+	_placeholderColor = color;
+	[self setNeedsDisplay];
+}
 
 #pragma mark - drawRect
 
@@ -106,12 +115,12 @@
             _placeholderLabel.numberOfLines = 0;
             _placeholderLabel.font = self.font;
             _placeholderLabel.backgroundColor = [UIColor clearColor];
-            _placeholderLabel.textColor = _placeholderColor;
             _placeholderLabel.alpha = 0;
             [self addSubview:_placeholderLabel];
         }
         
         _placeholderLabel.text = _placeholderText;
+        _placeholderLabel.textColor = _placeholderColor;
         [_placeholderLabel sizeToFit];
         [self sendSubviewToBack:_placeholderLabel];
     }
