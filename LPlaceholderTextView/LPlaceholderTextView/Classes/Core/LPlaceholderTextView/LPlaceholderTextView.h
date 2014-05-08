@@ -10,8 +10,8 @@
 }
 
 
-@property (nonatomic, retain) NSString *placeholderText;
-@property (nonatomic, retain) UIColor *placeholderColor;
+@property (strong, nonatomic) NSString *placeholderText;
+@property (strong, nonatomic) UIColor *placeholderColor;
 
 
 @end

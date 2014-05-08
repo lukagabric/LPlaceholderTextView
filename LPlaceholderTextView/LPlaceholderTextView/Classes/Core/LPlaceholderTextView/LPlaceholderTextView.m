@@ -91,15 +91,20 @@
     [self layoutGUI];
 }
 
-- (void)setPlaceholderText:(NSString*)placeholderText {
+
+- (void)setPlaceholderText:(NSString*)placeholderText
+{
 	_placeholderText = placeholderText;
 	[self setNeedsDisplay];
 }
 
-- (void)setPlaceholderColor:(UIColor*)color {
+
+- (void)setPlaceholderColor:(UIColor*)color
+{
 	_placeholderColor = color;
 	[self setNeedsDisplay];
 }
+
 
 #pragma mark - drawRect
 
