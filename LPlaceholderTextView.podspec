@@ -1,4 +1,7 @@
 Pod::Spec.new do |s|
+  s.author = {
+  	"Luka Gabrić" => "luka.gabric@gmail.com"
+  }
   s.name         = "LPlaceholderTextView"
   s.version      = "1.0"
   s.summary      = "UITextView subclass with placeholder"
